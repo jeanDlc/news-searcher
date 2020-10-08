@@ -18,7 +18,7 @@ const Noticia = ({noticia}) => {
                     description
                     }
                 </p>                
-                <a href={url} target="_blank" className="btn btn-light  d-block">More</a>
+                <a href={url} target="_blank" className="btn btn-light rounded d-block">More</a>
             </div>
         </div>
      );

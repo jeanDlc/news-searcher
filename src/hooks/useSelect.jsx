@@ -4,7 +4,7 @@ const useSelect = (stateInicial, opciones) => {
     //state del custom hook
     const [state, actualizarState]= useState(stateInicial);    
     const selectNews=()=>(
-        <div className="form-group">
+        <div className="form-group col-md-6">
               <select 
                 name=""
                 className="custom-select"
